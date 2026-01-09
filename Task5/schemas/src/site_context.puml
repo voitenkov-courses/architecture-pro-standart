@@ -1,0 +1,17 @@
+@startuml
+title Диаграмма контекста сайта
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(user, "Посетитель сайта", "")
+System(site, "Сайт", "React.js + PHP")
+
+System_Ext(abs, "АБС", "Автоматизированная банковская система")
+
+Rel(user, site, "Использует сайт")
+Rel(site, abs, "Запрашивает кредиты и ставки (раз в сутки)")
+Rel(abs, site, "Читает сообщения с заявками клиентов на кредит")
+
+@enduml

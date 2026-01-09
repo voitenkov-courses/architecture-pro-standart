@@ -1,0 +1,14 @@
+@startuml
+title Диаграмма контекста АБС
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+System(abs, "Автоматизированная банковская система (АБС)", "Delphi client + Oracle")
+
+System_Ext(call_center, "Система колл-центра", "")
+
+Rel(abs, call_center, "Отправляет файл с депозитами")
+
+@enduml

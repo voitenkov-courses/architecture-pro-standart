@@ -1,0 +1,24 @@
+@startuml
+title Диаграмма контейнеров сайта
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(user, "Посетитель сайта", "")
+
+System_Ext(abs, "АБС", "Автоматизированная банковская система")
+
+System_Boundary(site, "Сайт") {
+  Container(frontend, "Веб приложение (Frontend)", "React.js", "")
+  Container(backend, "Веб приложение (Backend)", "PHP", "")
+  ContainerQueue(queue, "Очередь", "Kafka", "")  
+}
+
+Rel(user, frontend, "Работает с сайтом")
+Rel(frontend, backend, "Отправляет запросы")
+Rel(backend, abs, "Запросы SQL к БД (синхронизация по кредитным предложениям и предоодобренным предложениям раз в сутки)")
+Rel(backend, queue, "Отправляет сообщения с заявками на кредит")
+Rel(abs, queue, "Читает сообщения с заявками на кредит")
+
+@enduml

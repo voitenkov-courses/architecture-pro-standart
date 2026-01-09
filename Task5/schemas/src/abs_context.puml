@@ -1,0 +1,27 @@
+@startuml
+title Диаграмма контекста АБС
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(manager, "Менеджер бэк-офиса", "")
+System(abs, "Автоматизированная банковская система (АБС)", "Delphi client + Oracle")
+
+System_Ext(internet_bank, "Интернет-банк", "")
+System_Ext(site, "Сайт", "")
+System_Ext(sms_gateway, "СМС-шлюз", "СМС-шлюз телеком-оператора")
+System_Ext(scoring, "Система скоринга", "")
+
+Rel(manager, abs, "Использует АБС")
+Rel(internet_bank, abs, "Запрашивает кредитные предложения и предодобренные кредиты (раз в сутки)")
+Rel(internet_bank, abs, "Проведение платежей, открытие текущих счетов")
+Rel(site, abs, "Запрашивает кредитные предложения (раз в сутки)")
+Rel(abs, sms_gateway, "Отправляет СМС-сообщения клиентам")
+Rel(abs, scoring, "Оценка по клиентам для предодобренного кредита (раз в сутки, ночью)")
+Rel(abs, scoring, "Оценка для предодобренного кредита (если запрошенная сумма выше одобренной)")
+Rel(abs, internet_bank, "Читает сообщения с заявками на кредит")
+Rel(abs, site, "Читает сообщения с заявками на кредит")
+Rel(abs, internet_bank, "Отправляет сообщения с изменениями остатков на счетах")
+
+@enduml
