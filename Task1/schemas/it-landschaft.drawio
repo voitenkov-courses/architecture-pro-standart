@@ -1,0 +1,172 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Страница — 1" id="CXRX3YePcgwUUleyfkJ5">
+    <mxGraphModel dx="1018" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-58" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="60" y="60" width="720" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-23" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-28" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="120" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-30" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="240" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="360" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-32" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="480" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-34" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-35" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="120" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-36" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="240" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="360" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-38" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="480" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-39" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-40" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-41" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="120" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-42" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="240" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-43" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="360" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-44" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="480" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-45" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-46" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-47" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="120" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-48" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="240" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-49" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="360" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-50" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="480" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-51" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-52" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-53" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="120" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-54" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="240" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-55" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="360" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-56" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="480" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-57" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" y="600" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-19" value="СМС-шлюз&amp;nbsp;&lt;div&gt;телеком оператора&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="lPstD-2MWsSoSeHEHEwW-58" vertex="1">
+          <mxGeometry x="600" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-1" value="Продажи в сети отделений" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-2" value="Продажи через колл-центр" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-3" value="Digital-оповещения клиентов" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-4" value="Обслуживание депозитных процессов" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-5" value="Обслуживание кредитных&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;процессов&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-6" value="Управление договорами" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-7" value="Управление обслуживанием в сети отделений" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-8" value="Колл-центр" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-10" value="IT-отдел" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-11" value="Управление обслуживанием депозитных продуктов" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-12" value="Управление обслуживанием кредитных продуктов" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-13" value="Команда цифровой трансформации розничного бизнеса" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-17" value="Система&amp;nbsp;&lt;div&gt;колл-центра&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-16" value="Автоматизированная банковская система (АБС)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="410" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-60" value="Кредитный конвейер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="470" y="300" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lPstD-2MWsSoSeHEHEwW-100" value="Система&amp;nbsp;&lt;div&gt;кредитного скоринга&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="470" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

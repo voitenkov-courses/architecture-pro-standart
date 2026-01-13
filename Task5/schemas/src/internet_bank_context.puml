@@ -1,0 +1,18 @@
+@startuml
+title Диаграмма контекста интернет-банка
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(user, "Пользователь", "Клиент интернет-банка")
+System(internet_bank, "Интернет-банк", "ASP.NET MVC 4.5 + MS SQL")
+
+System_Ext(abs, "АБС", "Автоматизированная банковская система")
+System_Ext(sms_gateway, "СМС-шлюз", "СМС-шлюз телеком-оператора")
+
+Rel(user, internet_bank, "Использует интернет-банк")
+Rel(internet_bank, abs, "Запрашивает кредитные предложения, предоодобренные заявки, отправляет заявки клиентов на кредит")
+Rel(internet_bank, sms_gateway, "Отправляет СМС-сообщения клиентам")
+
+@enduml

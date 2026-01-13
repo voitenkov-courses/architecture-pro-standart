@@ -1,0 +1,30 @@
+@startuml
+title Диаграмма контейнеров Автоматизированной банковской системы
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(manager, "Менеджер бэк-офиса", "")
+
+System_Ext(internet_bank, "Интернет-банк", "")
+System_Ext(site, "Сайт", "")
+System_Ext(sms_gateway, "СМС-шлюз", "СМС-шлюз телеком-оператора")
+System_Ext(call_center, "Система колл-центра (CRM)", "")
+
+System_Boundary(abs, "Автоматизированная банковская система (АБС)") {
+  Container(client_app, "Десктопное приложение", "Delphi", "")
+  Container(oracle, "База данных", "Oracle", "")
+}
+
+Rel(manager, client_app, "Работает с приложением")
+Rel(client_app, oracle, "Вызывает хранимые процедуры")
+Rel(oracle, sms_gateway, "Отправляет СМС-сообщения клиентам")
+Rel(internet_bank, oracle, "Проведение платежей, открытие текущих счетов")
+Rel(internet_bank, oracle, "Запрашивает депозиты и персональные ставки (раз в сутки)")
+Rel(call_center, oracle, "Отправляет заявки на депозит с сайта")
+Rel(site, oracle, "Запрашивает депозиты и ставки (раз в сутки)")
+Rel(oracle, internet_bank, "Читает сообщения с заявками на депозит")
+Rel(oracle, internet_bank, "Отправляет сообщения с изменениями остатков на счетах")
+
+@enduml

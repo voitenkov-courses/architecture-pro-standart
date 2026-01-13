@@ -1,0 +1,22 @@
+@startuml
+title Диаграмма контейнеров Автоматизированной банковской системы
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+System_Ext(call_center, "Система колл-центра (CRM)", "")
+
+System_Boundary(abs, "Автоматизированная банковская система (АБС)") {
+  Container(client_app, "Десктопное приложение", "Delphi", "")
+  Container(oracle, "База данных", "Oracle", "")
+  ContainerDb(files, "/var/abs/deposits", "Файлы", "")
+  Container(rsync, "rsync", "Cron task", "")
+}
+
+Rel(client_app, oracle, "Вызывает хранимые процедуры")
+Rel(oracle, files, "Сохраняет файл с депозитами")
+Rel(rsync, files, "Читает файл с депозитами")
+Rel(rsync, call_center, "Отправляет файл с депозитами [SSH]")
+
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+title Диаграмма контейнеров интернет-банка
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(user, "Пользователь", "Клиент интернет-банка")
+
+System_Ext(abs, "АБС", "Автоматизированная банковская система")
+System_Ext(sms_gateway, "СМС-шлюз", "СМС-шлюз телеком-оператора")
+
+System_Boundary(internet_bank, "Интернет-банк") {
+  Container(app_asp_net, "ASP.NET MVC 4.5 веб-приложение", "Microsoft IIS", "")
+  Container(mssql, "База данных", "Microsoft SQL Server", "")
+  Container(frontend, "Веб приложение (Frontend)", "React.js", "")
+  Container(api_gateway, "APIGateway", "", "")
+  Container(deposit, "Микросервис управления депозитами", "Java Spring Boot", "")  
+  Container(deposit_db, "База данных микросервиса управления депозитами", "PostgreSQL", "")
+  ContainerQueue(queue, "Очередь", "Kafka", "")  
+}
+
+Rel(user, app_asp_net, "Работает с интернет-банком")
+Rel(app_asp_net, mssql,"Отправляет SQL-запросы")
+Rel(app_asp_net, abs, "Проведение платежей, открытие текущих счетов")
+Rel(app_asp_net, frontend, "Редирект на страницу депозитов")
+Rel(frontend, api_gateway, "Rest API [HTTPS]")
+Rel(api_gateway, deposit, "Rest API [HTTPS]")
+Rel(deposit, sms_gateway, "Отправляет СМС-сообщения клиентам")
+Rel(deposit, deposit_db,"Отправляет SQL-запросы")
+Rel(deposit, abs, "Запросы SQL к БД (синхронизация по депозитам и персональным ставкам раз в сутки)")
+Rel(deposit, queue, "Отправляет сообщения с заявками на депозит")
+Rel(deposit, queue, "Читает сообщения с изменениями остатков на счетах")
+Rel(abs, queue, "Читает сообщения с заявками на депозит")
+Rel(abs, queue, "Отправляет сообщения с изменениями остатков на счетах")
+
+@enduml
